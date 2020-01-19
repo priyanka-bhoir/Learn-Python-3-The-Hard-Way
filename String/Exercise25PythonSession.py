@@ -1,0 +1,17 @@
+import Exercise25EvenMorePractice as py
+sentence="All good things come to those who wait."
+words=py.break_words(sentence)
+print(words)
+sorted_words=py.sort_words(words)
+print(sorted_words)
+py.print_first_word(words)
+py.print_last_word(words)
+print(words)
+py.print_last_word(sorted_words)
+py.print_first_word(sorted_words)
+print(sorted_words)
+sorted_words=py.sort_sentence(sentence)
+print(sorted_words)
+py.print_first_and_last(sentence)
+py.print_first_and_last_sorted(sentence)
+print(sentence)
